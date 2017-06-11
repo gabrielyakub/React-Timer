@@ -13,6 +13,11 @@ var Controls = React.createClass({
       this.props.onStatusChange(newStatus);
     }
   },
+  // // lyfecycle componentDidUpdate
+  // // dijalanin saat propertinya diganti oleh parent component
+  // componentWillReceiveProps: function(newProps){
+  //   console.log('componentWillReceiveProps', newProps.countdownStatus);
+  // },
   render: function(){
     var {countdownStatus} = this.props;
 
